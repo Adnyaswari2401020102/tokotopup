@@ -44,6 +44,6 @@ class TopupController extends Controller
 
         session()->push('transactions', $data);
 
-        return redirect()->back()->with('success', 'Top Up Berhasil (Simulasi)');
+        return redirect()->back()->with('success', 'Top Up Berhasil');
     }
 }
