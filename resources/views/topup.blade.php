@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h2>Top Up Game (Tanpa Database)</h2>
+<h2>Top Up Game</h2>
 
 @if(session('success'))
     <p style="color:green">{{ session('success') }}</p>
